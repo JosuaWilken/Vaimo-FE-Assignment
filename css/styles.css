@@ -1,0 +1,1747 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/*
+===================================================CLASS STYLES=====================================================================================
+
+===================================================MAIN DIV STYLES=====================================================================================
+*/
+
+.img-div-class {
+  width: 416px;
+  height: 416px;
+
+  position: absolute;
+  margin: 48px 952px 560px 72px;
+}
+
+.info-box-class {
+  width: 526px;
+  height: 544px;
+
+  margin: 48px 402px 432px 512px;
+  position: absolute;
+}
+
+.right-sidebar {
+  width: 306px;
+  height: auto;
+
+  margin: 48px 72px 720px 1062px;
+  position: absolute;
+}
+
+/*
+===================================================PRODUCT IMG STYLES=====================================================================================
+*/
+
+.image {
+  width: 416px;
+  height: 416px;
+  position: absolute;
+  margin: 0 0 0 0;
+}
+
+/*
+===================================================BADGES DIV STYLES=====================================================================================
+*/
+
+.badges {
+  width: 271px;
+  height: 20px;
+  margin: 0 255px 524px 0;
+  position: absolute;
+}
+
+.ready-to-ship {
+  background-image: linear-gradient(270deg, #F5515F 0%, #FF7527 100%);
+  border-radius: 2px 0 0 2px;
+  width: 90px;
+  height: 20px;
+  margin: 0 181px 0 0;
+  position: absolute;
+
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.ready-to-ship-text{
+  padding: 2px 8px 2px 8px;
+}
+
+.in-stock {
+  background-color: #FFF0E6;
+  width: 75px;
+  height: 20px;
+  margin: 0 106px 0 90px;
+  position: absolute;
+
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.in-stock-text {
+  position: absolute;
+  margin: 2px 8px 2px 24px;
+}
+
+.check-1 {
+  position: absolute;
+  margin: 4px 55px 4px 8px;
+}
+
+.fast-dispatch {
+  background-color: #FFF0E6;
+  border-radius: 0 2px 2px 0;
+  width: 106px;
+  height: 20px;
+  margin: 0 0 0 165px;
+  position: absolute;
+
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.fast-dispatch-text {
+  position: absolute;
+  margin: 2px 8px 2px 24px;
+}
+
+.check-2 {
+  position: absolute;
+  margin: 4px 86px 4px 8px;
+}
+
+/*
+===================================================PRODUCT DESCRIPTION DIV STYLES=====================================================================================
+*/
+
+.product-description {
+  position: absolute;
+  margin: 28px 0 468px 0;
+
+  color: #333333;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  width: 526px;
+  text-align: left;
+}
+
+/*
+===================================================PRODUCT TAG DIV STYLES=====================================================================================
+*/
+
+.product-description-tag {
+  background-color: #EDF0F3;
+  border-radius: 2px;
+  width: 111px;
+  height: 20px;
+  position: absolute;
+  margin: 52px 141px 472px 274px;
+
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.tag-text {
+  position: absolute;
+  margin: 2px 8px 2px 8px;
+}
+
+/*
+===================================================RATING BOX DIV STYLES=====================================================================================
+*/
+
+.rating-box {
+  width: 242px;
+  height: 16px;
+  position: absolute;
+  margin: 88px 284px 440px 0;
+}
+
+.star-img {
+  position: absolute;
+}
+
+.star-1 {
+  margin: 0 228px 4px 0;
+}
+
+.star-2 {
+  margin: 0 210px 4px 18px;
+}
+
+.star-3 {
+  margin: 0 192px 4px 36px;
+}
+
+.star-4 {
+  margin: 0 174px 4px 54px;
+}
+
+.star-5 {
+  margin: 0 156px 4px 72px;
+}
+
+.rating {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 0 135px 0 90px;
+}
+
+.reviews {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  width: 78px;
+
+  position: absolute;
+  margin: 0 77px 0 111px;
+}
+
+.buyers {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  width: 53px;
+
+  position: absolute;
+  margin: 0 0 0 189px;
+}
+
+/*
+===================================================PRICE BOX DIV STYLES=====================================================================================
+*/
+
+.price-box {
+  width: 526px;
+  height: 64px;
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+
+  position: absolute;
+  margin: 116px 0 364px 0;
+}
+
+.discount-price-range {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: bold;
+
+  position: absolute;
+  margin: 12px 391px 28px 0;
+}
+
+.option-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 16px 328px 32px 147px;
+}
+
+.devide-text {
+  color: #EDF0F3;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 16px 317px 32px 198px;
+}
+
+.amount-option {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 16px 253px 32px 209px;
+}
+
+.min-order-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 16px 181px 32px 273px;
+}
+
+.old-price-range {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: line-through;
+
+  position: absolute;
+  margin: 36px 402px 12px 0;
+}
+
+/*
+===================================================MARCH EXPO DIV STYLES=====================================================================================
+*/
+
+.march-expo {
+  background-color: #FFF0E6;
+  width: 526px;
+  height: 40px;
+
+  position: absolute;
+  margin: 192px 0 312px 0;
+}
+
+.march-logo-img {
+  width: 76px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 450px 0 0;
+}
+
+.list-1 {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 259px 12px 100px;
+}
+
+.list-2 {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 49px 12px 291px;
+}
+
+.forward-img {
+  position: absolute;
+  margin: 13px 16px 13px 502px;
+}
+
+/*
+===================================================COUNTDOWN TIMER DIV STYLES=====================================================================================
+*/
+
+.countdown-timer {
+  width: 328px;
+  height: 24px;
+
+  position: absolute;
+  margin: 256px 198px 264px 0;
+}
+
+.discount-amount {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 4px 269px 4px 0;
+}
+
+.discount-end-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 4px 165px 4px 59px;
+}
+
+.clock-img {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 4px 125px 4px 187px;
+}
+
+.time-left {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-style: italic;
+
+  position: absolute;
+  margin: 0 0 0 215px;
+}
+
+/*
+===================================================OPTIONS DIV STYLES=====================================================================================
+*/
+
+.option-list {
+  width: 526px;
+  height: 144px;
+
+  position: absolute;
+  margin: 304px 0 96px 0;
+}
+
+/*
+===================================================OPTION 1 DIV STYLES=====================================================================================
+*/
+
+.option-1 {
+  width: 526px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 104px 0;
+}
+
+.option-options-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 112px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 414px 12px 0;
+}
+
+.option-1-name {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 240px 12px 112px;
+}
+
+.option-1-price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 184px 12px 286px;
+}
+
+.option-1-qty-bar {
+  width: 160px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 366px;
+}
+
+/*
+===================================================OPTION 1 MIN BTN STYLES=====================================================================================
+*/
+
+.option-1-min-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 120px 0 0;
+}
+
+.option-1-min-btn:focus {
+  outline: inherit;
+}
+
+.hover-option-1-min-btn:hover {
+  bottom: 2px;
+  background-color: #F8F9FF;
+}
+
+.option-1-min-img {
+  position: absolute;
+  margin: 19px 13px 19px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================OPTION 1 TEXT STYLES=====================================================================================
+*/
+
+.option-1-div {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 80px;
+  height: 40px;
+
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  position: absolute;
+  margin: 0 40px 0 40px;
+}
+
+.option-1-text {
+  width: 80px;
+  position: absolute;
+  margin: 12px 0 12px 0;
+}
+
+/*
+===================================================OPTION 1 PLUS BTN STYLES=====================================================================================
+*/
+
+.option-1-plus-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #FF6600;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 120px;
+}
+
+.option-1-plus-btn:focus {
+  outline: inherit;
+}
+
+.option-1-plus-btn:hover {
+  bottom: 2px;
+  background-color: #FFF0E6;
+}
+
+.option-1-plus-img {
+  position: absolute;
+  margin: 13px 13px 13px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================OPTION 2 DIV STYLES=====================================================================================
+*/
+
+.option-2 {
+  width: 526px;
+  height: 40px;
+
+  position: absolute;
+  margin: 52px 0 52px 0;
+}
+
+.option-2-name {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: 174px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 240px 12px 112px;
+}
+
+.option-2-price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 184px 12px 286px;
+}
+
+.option-2-qty-bar {
+  width: 160px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 366px;
+}
+
+/*
+===================================================OPTION 2 MIN BTN STYLES=====================================================================================
+*/
+
+.option-2-min-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 120px 0 0;
+}
+
+.option-2-min-btn:focus {
+  outline: inherit;
+}
+
+.hover-option-2-min-btn:hover {
+  bottom: 2px;
+  background-color: #F8F9FF;
+}
+
+.option-2-min-img {
+  position: absolute;
+  margin: 19px 13px 19px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================OPTION 2 TEXT STYLES=====================================================================================
+*/
+
+.option-2-div {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 80px;
+  height: 40px;
+
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  position: absolute;
+  margin: 0 40px 0 40px;
+}
+
+.option-2-text {
+  width: 80px;
+  position: absolute;
+  margin: 12px 0 12px 0;
+}
+
+/*
+===================================================OPTION 2 PLUS BTN STYLES=====================================================================================
+*/
+
+.option-2-plus-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #FF6600;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 120px;
+}
+
+.option-2-plus-btn:focus {
+  outline: inherit;
+}
+
+.option-2-plus-btn:hover {
+  bottom: 2px;
+  background-color: #FFF0E6;
+}
+
+.option-2-plus-img {
+  position: absolute;
+  margin: 13px 13px 13px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================OPTION 3 DIV STYLES=====================================================================================
+*/
+
+.option-3 {
+  width: 526px;
+  height: 40px;
+
+  position: absolute;
+  margin: 104px 0 0 0;
+}
+
+.option-3-name {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  width: auto;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 240px 12px 112px;
+}
+
+.option-3-price {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 12px 184px 12px 286px;
+}
+
+.option-3-qty-bar {
+  width: 160px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 366px;
+}
+
+/*
+===================================================OPTION 3 MIN BTN STYLES=====================================================================================
+*/
+
+.option-3-min-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #E6E7EB;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 120px 0 0;
+}
+
+.option-3-min-btn:focus {
+  outline: inherit;
+}
+
+.hover-option-3-min-btn:hover {
+  bottom: 2px;
+  background-color: #F8F9FF;
+}
+
+.option-3-min-img {
+  position: absolute;
+  margin: 19px 13px 19px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================OPTION 3 TEXT STYLES=====================================================================================
+*/
+
+.option-3-div {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 1px 0 0 #E6E7EB, inset 0 -1px 0 0 #E6E7EB;
+  width: 80px;
+  height: 40px;
+
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+
+  position: absolute;
+  margin: 0 40px 0 40px;
+}
+
+.option-3-text {
+  width: 80px;
+  position: absolute;
+  margin: 12px 0 12px 0;
+}
+
+/*
+===================================================OPTION 3 PLUS BTN STYLES=====================================================================================
+*/
+
+.option-3-plus-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #FF6600;
+  border-radius: 2px 0 0 2px;
+  width: 40px;
+  height: 40px;
+
+  position: absolute;
+  margin: 0 0 0 120px;
+}
+
+.option-3-plus-btn:focus {
+  outline: inherit;
+}
+
+.option-3-plus-btn:hover {
+  bottom: 2px;
+  background-color: #FFF0E6;
+}
+
+.option-3-plus-img {
+  position: absolute;
+  margin: 13px 13px 13px 13px;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+/*
+===================================================TRADE ASSURANCE DIV STYLES=====================================================================================
+*/
+
+.trade-assurance {
+  width: 306px;
+  height: 16px;
+
+  position: absolute;
+  margin: 472px 220px 56px 0;
+}
+
+.lock-icon {
+  width: 12px;
+  height: 14px;
+
+  position: absolute;
+  margin: 1px 293px 1px 1px;
+}
+
+.trade-assurance-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  font-weight: bold;
+
+  position: absolute;
+  margin: 0 181px 0 18px;
+}
+
+.protects-your-alibab {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  right: 0;
+
+  position: absolute;
+  margin: 0 0 0 125px;
+}
+
+/*
+===================================================PAYMENTS DIV STYLES=====================================================================================
+*/
+
+.payments {
+  width: 130px;
+  height: 16px;
+
+  position: absolute;
+  margin: 500px 396px 28px 0;
+}
+
+.payments-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 0 70px 0 0;
+}
+
+.visa-img {
+  position: absolute;
+  margin: 2px 53px 2px 60px;
+}
+
+.mastercard-img {
+  position: absolute;
+  margin: 2px 32px 2px 81px;
+}
+
+.apple-pay-img {
+  position: absolute;
+  margin: 2px 0 2px 102px;
+}
+
+/*
+===================================================LINK DIV STYLES=====================================================================================
+*/
+
+.links {
+  width: 252px;
+  height: 16px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 528px 274px 0 0;
+}
+
+.alibaba-link {
+  position: absolute;
+  margin: 0 133px 0 0;
+}
+
+.inspection-link {
+  position: absolute;
+  margin: 0 0 0 143px;
+}
+
+/*
+===================================================RIGHT SIDEBAR DIV STYLES=====================================================================================
+*/
+
+.options-chose {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  width: 306px;
+  height: 192px;
+  margin-bottom: 5px;
+
+  position: relative;
+}
+
+.options-chose:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.options-chose-displayNo {
+  display: none;
+}
+
+.option-chose-text-div {
+  width: 306px;
+  height: 32px;
+
+  position: absolute;
+  margin: 0 0 160px 0;
+}
+
+.option-chose-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 14px;
+}
+
+.option-1-chose {
+  width: 306px;
+  height: 32px;
+
+  position: absolute;
+  margin: 32px 0 128px 0;
+}
+
+.option-1-chose-text {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 24px;
+}
+
+.option-1-chose-total {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 188px;
+}
+
+.option-2-chose {
+  width: 306px;
+  height: 32px;
+
+  position: absolute;
+  margin: 64px 0 96px 0;
+}
+
+.option-2-chose-text {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 24px;
+}
+
+.option-2-chose-total {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 188px;
+}
+
+.option-3-chose {
+  width: 306px;
+  height: 32px;
+
+  position: absolute;
+  margin: 96px 0 64px 0;
+}
+
+.option-3-chose-text {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 24px;
+}
+
+.option-3-chose-total {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 9px auto 9px 188px;
+}
+
+.option-total-chose {
+  width: 306px;
+  height: 32px;
+
+  position: absolute;
+  margin: 160px 0 0px 0;
+}
+
+.total-chose-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 0 auto 18px 14px;
+}
+
+.option-total-chose-text {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 0 auto 18px 188px;
+}
+
+/*
+===================================================ADD TO BOX DIV STYLES=====================================================================================
+*/
+
+.add-to-box-class {
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.05);
+  width: 306px;
+  height: 256px;
+
+  margin: auto 0 auto 0;
+  position: relative;
+}
+
+.add-to-box-class:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.ship-where-text {
+  width: 132px;
+  height: 16px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 28px 150px 180px 24px;
+}
+
+.ship-by-text {
+  width: 132px;
+  height: 16px;
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  overflow:hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+
+  position: absolute;
+  margin: 44px 150px 196px 24px;
+}
+
+.current-amount {
+  color: #333333;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  font-weight: bold;
+
+  position: absolute;
+  margin: 24px 24px 208px 204px;
+}
+
+.lead-time {
+  width: 144px;
+  height: 16px;
+
+  position: absolute;
+  margin: 72px 138px 168px 24px;
+}
+
+.lead-time-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+
+  position: absolute;
+  margin: 0 26px 0 0;
+}
+
+.info-img-1 {
+  width: 14px;
+  height: 14px;
+
+  position: absolute;
+  margin: 1px 0 1px 130px;
+}
+
+.shipping-time {
+  width: 177px;
+  height: 16px;
+
+  position: absolute;
+  margin: 100px 105px 140px 24px;
+}
+
+.shipping-time-text {
+  color: #999999;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  width: 155px;
+
+  position: absolute;
+  margin: 0 25px 0 0;
+}
+
+.info-img-2 {
+  width: 14px;
+  height: 14px;
+
+  position: absolute;
+  margin: 1px 0 1px 163px;
+}
+
+.login-btn {
+  background-color: #FF6600;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+
+  position: absolute;
+  margin: 140px 24px 76px 24px;
+}
+
+.login-btn-text {
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  width: 210px;
+
+  position: absolute;
+  margin: 10px 24px 10px 24px;
+}
+
+.contact-btn {
+  background-color: #FFFFFF;
+  border: 1px solid #FF6600;
+  border-radius: 20px;
+  width: 258px;
+  height: 40px;
+
+  position: absolute;
+  margin: 192px 24px 24px 24px;
+}
+
+.contact-img {
+  width: 14px;
+  height: 12px;
+
+  position: absolute;
+  margin: 14px 208px 14px 36px;
+}
+
+.contact-btn-text {
+  color: #FF6600;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  width: 128px;
+
+  position: absolute;
+  margin: 10px 68px 10px 62px;
+}
+
+/*
+===================================================SURFACE DIV STYLES=====================================================================================
+*/
+
+.surface {
+  background-color: #EDF0F3;
+  border-radius: 8px;
+  width: 1440px;
+  height: 332px;
+
+  position: absolute;
+  margin: 692px 0 0 0;
+}
+
+
+
+/*
+===================================================MOBILE STYLES=====================================================================================
+*/
+
+@media only screen and (max-width: 500px) {
+  /*
+  ===================================================MAIN DIV STYLES=====================================================================================
+  */
+
+  .img-div-class {
+    width: 360px;
+    height: 360px;
+
+    position: relative;
+    margin: 0 0 auto 0;
+  }
+
+  .info-box-class {
+    width: 360px;
+    height: 568px;
+
+    margin: 12px 0 auto 0;
+    position: relative;
+  }
+
+  .right-sidebar {
+    width: 336px;
+
+    margin: 12px 12px auto 12px;
+    position: relative;
+  }
+
+  /*
+  ===================================================PRODUCT IMG STYLES=====================================================================================
+  */
+
+  .image {
+    width: 360px;
+    height: 360px;
+    position: relative;
+  }
+
+  /*
+  ===================================================BADGES DIV STYLES=====================================================================================
+  */
+
+  .badges {
+    margin: 0 77px 548px 12px;
+  }
+
+  /*
+  ===================================================PRODUCT DESCRIPTION DIV STYLES=====================================================================================
+  */
+
+  .product-description {
+    margin: 28px 12px 468px 12px;
+    width: 336px;
+  }
+
+  /*
+  ===================================================PRODUCT TAG DIV STYLES=====================================================================================
+  */
+
+  .product-description-tag {
+    margin: 76px 12px 472px 237px;
+  }
+
+  /*
+  ===================================================RATING BOX DIV STYLES=====================================================================================
+  */
+
+  .rating-box {
+    margin: 112px 106px 440px 12px;
+  }
+
+  /*
+  ===================================================PRICE BOX DIV STYLES=====================================================================================
+  */
+
+  .price-box {
+    width: 336px;
+    height: 64px;
+
+    margin: 140px 12px 364px 12px;
+  }
+
+  .discount-price-range {
+    margin: 12px 201px 28px 0;
+  }
+
+  .option-text {
+    margin: 16px 147px 32px 135px;
+  }
+
+  .devide-text {
+    margin: 16px 136px 32px 189px;
+  }
+
+  .amount-option {
+    margin: 16px 72px 32px 200px;
+  }
+
+  .min-order-text {
+    margin: 16px 0 32px 264px;
+  }
+
+  .old-price-range {
+    margin: 36px 212px 12px 0;
+  }
+
+  /*
+  ===================================================MARCH EXPO DIV STYLES=====================================================================================
+  */
+
+  .march-expo {
+    width: 336px;
+    height: 40px;
+
+    margin: 216px 12px 312px 12px;
+  }
+
+  .march-logo-img {
+    margin: 0 260px 0 0;
+  }
+
+  .list-1 {
+    margin: 12px 69px 12px 100px;
+  }
+
+  .list-2 {
+    display: none;
+  }
+
+  .forward-img {
+    margin: 13px 16px 13px 312px;
+  }
+
+  /*
+  ===================================================COUNTDOWN TIMER DIV STYLES=====================================================================================
+  */
+
+  .countdown-timer {
+    margin: 280px 20px 264px 12px;
+  }
+
+  /*
+  ===================================================OPTIONS DIV STYLES=====================================================================================
+  */
+
+  .option-list {
+    width: 360px;
+
+    margin: 328px 0 96px 0;
+  }
+
+  /*
+  ===================================================OPTION 1 DIV STYLES=====================================================================================
+  */
+
+  .option-1 {
+    width: 336px;
+
+    margin: 0 12px 104px 12px;
+  }
+
+  .option-options-text {
+    display: none;
+  }
+
+  .option-1-name {
+    width: 148px;
+
+    margin: 12px 188px 12px 0;
+  }
+
+  .option-1-price {
+    margin: 12px 132px 12px 148px;
+  }
+
+  .option-1-qty-bar {
+    width: 120px;
+
+    margin: 0 0 0 216px;
+  }
+
+  /*
+  ===================================================OPTION 1 MIN BTN STYLES=====================================================================================
+  */
+
+  .option-1-min-btn {
+    margin: 0 80px 0 0;
+  }
+
+  /*
+  ===================================================OPTION 1 TEXT STYLES=====================================================================================
+  */
+
+  .option-1-div {
+    width: 40px;
+
+    margin: 0 40px 0 40px;
+  }
+
+  .option-1-text {
+    width: 40px;
+  }
+
+  /*
+  ===================================================OPTION 1 PLUS BTN STYLES=====================================================================================
+  */
+
+  .option-1-plus-btn {
+    margin: 0 0 0 80px;
+  }
+
+  /*
+  ===================================================OPTION 2 DIV STYLES=====================================================================================
+  */
+
+  .option-2 {
+    width: 336px;
+
+    margin: 52px 12px 52px 12px;
+  }
+
+  .option-2-name {
+    width: 148px;
+
+    margin: 12px 188px 12px 0;
+  }
+
+  .option-2-price {
+    margin: 12px 132px 12px 148px;
+  }
+
+  .option-2-qty-bar {
+    width: 120px;
+
+    margin: 0 0 0 216px;
+  }
+
+  /*
+  ===================================================OPTION 2 MIN BTN STYLES=====================================================================================
+  */
+
+  .option-2-min-btn {
+    margin: 0 80px 0 0;
+  }
+
+  /*
+  ===================================================OPTION 2 TEXT STYLES=====================================================================================
+  */
+
+  .option-2-div {
+    width: 40px;
+
+    margin: 0 40px 0 40px;
+  }
+
+  .option-2-text {
+    width: 40px;
+  }
+
+  /*
+  ===================================================OPTION 2 PLUS BTN STYLES=====================================================================================
+  */
+
+  .option-2-plus-btn {
+    margin: 0 0 0 80px;
+  }
+
+  /*
+  ===================================================OPTION 3 DIV STYLES=====================================================================================
+  */
+
+  .option-3 {
+    width: 336px;
+
+    margin: 104px 12px 0 12px;
+  }
+
+  .option-3-name {
+    width: 148px;
+
+    margin: 12px 188px 12px 0;
+  }
+
+  .option-3-price {
+    margin: 12px 140px 12px 148px;
+  }
+
+  .option-3-qty-bar {
+    width: 120px;
+
+    margin: 0 0 0 216px;
+  }
+
+  /*
+  ===================================================OPTION 3 MIN BTN STYLES=====================================================================================
+  */
+
+  .option-3-min-btn {
+    margin: 0 80px 0 0;
+  }
+
+  /*
+  ===================================================OPTION 3 TEXT STYLES=====================================================================================
+  */
+
+  .option-3-div {
+    width: 40px;
+
+    margin: 0 40px 0 40px;
+  }
+
+  .option-3-text {
+    width: 40px;
+  }
+
+  /*
+  ===================================================OPTION 3 PLUS BTN STYLES=====================================================================================
+  */
+
+  .option-3-plus-btn {
+    margin: 0 0 0 80px;
+  }
+
+  /*
+  ===================================================TRADE ASSURANCE DIV STYLES=====================================================================================
+  */
+
+  .trade-assurance {
+    margin: 496px 42px 56px 12px;
+  }
+
+  /*
+  ===================================================PAYMENTS DIV STYLES=====================================================================================
+  */
+
+  .payments {
+    margin: 524px 218px 28px 12px;
+  }
+
+  /*
+  ===================================================LINK DIV STYLES=====================================================================================
+  */
+
+  .links {
+    margin: 552px 96px 0 12px;
+  }
+
+  /*
+  ===================================================ADD TO BOX DIV STYLES=====================================================================================
+  */
+
+  .add-to-box-class {
+    width: 336px;
+
+    margin: auto 0 12px 0;
+  }
+
+  .ship-where-text {
+    width: 145px;
+
+    margin: 28px 165px 180px 26px;
+  }
+
+  .ship-by-text {
+    width: 145px;
+
+    margin: 44px 165px 196px 26px;
+  }
+
+  .current-amount {
+    margin: 24px 26px 208px 224px;
+  }
+
+  .lead-time {
+    width: 158px;
+
+    margin: 72px 152px 168px 26px;
+  }
+
+  .lead-time-text {
+    margin: 0 28px 0 0;
+  }
+
+  .info-img-1 {
+    margin: 1px 0 1px 143px;
+  }
+
+  .shipping-time {
+    width: 195px;
+
+    margin: 100px 115px 140px 26px;
+  }
+
+  .shipping-time-text {
+    width: 169px;
+
+    margin: 0 28px 0 0;
+  }
+
+  .info-img-2 {
+    margin: 1px 0 1px 179px;
+  }
+
+  .login-btn {
+    width: 284px;
+
+    margin: 140px 26px 76px 26px;
+  }
+
+  .login-btn-text {
+    width: 284px;
+
+    margin: 10px 0 10px 0;
+  }
+
+  .contact-btn {
+    width: 284px;
+
+    margin: 192px 26px 24px 26px;
+  }
+
+  .contact-img {
+    margin: 14px 223px 14px 47px;
+  }
+
+  .contact-btn-text {
+    margin: 10px 83px 10px 73px;
+  }
+
+  /*
+  ===================================================SURFACE DIV STYLES=====================================================================================
+  */
+
+  .surface {
+    display: none;
+  }
+}

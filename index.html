@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>JH Wilken - Vaimo - FE Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="js/build.js"></script>
+  </head>
+  <body>
+    <div id="img-div" class="img-div-class">
+
+    </div>
+
+    <div id="info-box" class="info-box-class">
+
+      <div class="badges">
+        <div class="ready-to-ship">
+          <p class="ready-to-ship-text">Ready to Ship</p>
+        </div>
+        <div class="in-stock">
+          <img class="check-1" src="images/check.png" alt="check image">
+          <p class="in-stock-text">In Stock</p>
+        </div>
+        <div class="fast-dispatch">
+          <img class="check-2" src="images/check.png" alt="check image">
+          <p class="fast-dispatch-text">Fast Dispatch</p>
+        </div>
+      </div>
+
+      <div id="product-description-id" class="product-description"></div>
+
+      <div id="product-description-tag" class="product-description-tag"></div>
+
+      <div id="rating-box" class="rating-box">
+        <img class="star-img star-1" src="images/star.png" alt="star image">
+        <img class="star-img star-2" src="images/star.png" alt="star image">
+        <img class="star-img star-3" src="images/star.png" alt="star image">
+        <img class="star-img star-4" src="images/star.png" alt="star image">
+        <img class="star-img star-5" src="images/star.png" alt="star image">
+      </div>
+
+      <div id="price-box" class="price-box"> </div>
+
+      <div class="march-expo">
+        <img class="march-logo-img" src="images/march-logo.png" alt="March Logo Image">
+        <p class="list-1">• Free shipping (up to $40)</p>
+        <p class="list-2">• On-time delivery guaranteed</p>
+        <img class="forward-img" src="images/forward.png" alt="Forward button Image">
+      </div>
+
+      <div id="countdown-timer" class="countdown-timer">
+        <p class="discount-end-text">Discount ends in</p>
+        <img class="clock-img" src="images/clock.png" alt="clock icon">
+      </div>
+
+      <div class="option-list">
+        <div id="option-1" class="option-1">
+          <p class="option-options-text">Options:</p>
+          <div class="option-1-qty-bar">
+            <button id="option-1-min-btn" class="option-1-min-btn" onclick="decrementOption1()">
+              <img class="option-1-min-img" src="images/minus.png" alt="minus image">
+            </button>
+            <div class="option-1-div">
+              <p id="option-1-text" class="option-1-text">0</p>
+            </div>
+            <button class="option-1-plus-btn" onclick="incrementOption1()">
+              <img class="option-1-plus-img" src="images/plus.png" alt="plus image">
+            </button>
+          </div>
+        </div>
+        <div id="option-2" class="option-2">
+          <div class="option-2-qty-bar">
+            <button id="option-2-min-btn" class="option-2-min-btn" onclick="decrementOption2()">
+              <img class="option-2-min-img" src="images/minus.png" alt="minus image">
+            </button>
+            <div class="option-2-div">
+              <p id="option-2-text" class="option-2-text">0</p>
+            </div>
+            <button class="option-2-plus-btn" onclick="incrementOption2()">
+              <img class="option-2-plus-img" src="images/plus.png" alt="plus image">
+            </button>
+          </div>
+        </div>
+        <div id="option-3" class="option-3">
+          <div class="option-3-qty-bar">
+            <button id="option-3-min-btn" class="option-3-min-btn" onclick="decrementOption3()">
+              <img class="option-3-min-img" src="images/minus.png" alt="minus image">
+            </button>
+            <div class="option-3-div">
+              <p id="option-3-text" class="option-3-text">0</p>
+            </div>
+            <button class="option-3-plus-btn" onclick="incrementOption3()">
+              <img class="option-3-plus-img" src="images/plus.png" alt="plus image">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="trade-assurance">
+        <img
+          class="lock-icon"
+          src="images/protect.svg"
+          alt="protect icon"
+          height="14"
+          width="12" />
+        <p class="trade-assurance-text">Trade Assurance</p>
+        <p class="protects-your-alibab">protects your Alibaba.com orders</p>
+      </div>
+
+      <div class="payments">
+        <p class="payments-text">Payments:</p>
+        <img class="visa-img" src="images/visa.svg" alt="visa image">
+        <img class="mastercard-img" src="images/mastercard.svg" alt="mastercard image">
+        <img class="apple-pay-img" src="images/apple-pay.svg" alt="apple pay image">
+      </div>
+
+      <div class="links">
+        <p class="alibaba-link">Alibaba.com Logistics</p>
+        <p class="inspection-link">Inspection Solutions</p>
+      </div>
+
+    </div>
+
+    <div class="right-sidebar">
+      <div id="options-chose" class="options-chose">
+        <div class="option-chose-text-div">
+          <p class="option-chose-text">Options summary:</p>
+        </div>
+        <div id="option-1-chose" class="option-1-chose">
+
+        </div>
+        <div id="option-2-chose" class="option-2-chose">
+
+        </div>
+        <div id="option-3-chose" class="option-3-chose">
+
+        </div>
+        <div id="option-total-chose" class="option-total-chose">
+          <p class="total-chose-text">Total:</p>
+        </div>
+      </div>
+      <div id="add-to-box" class="add-to-box-class">
+
+        <div id="lead-time" class="lead-time">
+          <img class="info-img-1" src="images/info.png" alt="info image">
+        </div>
+
+        <div id="shipping-time" class="shipping-time">
+          <img class="info-img-2" src="images/info.png" alt="info image">
+        </div>
+
+        <div class="login-btn">
+          <p class="login-btn-text">Login to Purchase</p>
+        </div>
+
+        <div class="contact-btn">
+          <img class="contact-img" src="images/mail.png" alt="mail images">
+          <p class="contact-btn-text">Contact the Supplier</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="surface"></div>
+
+    <script>
+      fetch("https://fe-assignment.vaimo.net/")
+          .then(function (response) {
+              return response.json();
+          })
+          .then(function (data) {
+              appendData(data);
+          })
+          .catch(function (err) {
+              console.log('error: ' + err);
+          });
+    </script>
+  </body>
+</html>
